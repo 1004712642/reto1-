@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=4, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>reto 1 de mi sitio wed</title>
+   
+
+</head>
+<body>
+   
+    <center> 
+   
+  
+        <h1>conversor de divisas</h1>
+         <br>
+      <div>
+        <img src="./imagen/download.jpg"  >
+
+    <form id="moneda">
+        <br>
+         <input id="numero" type="number" placeholder="cantidad de dinero"  style="WIDTH: 280px; HEIGHT: 20px">
+        <br><br>
+ 
+      <select id="selecionar" style="WIDTH: 190px; HEIGHT: 25px">
+        <option>elige tu moneda</option>
+        <option id="do">dolar</option>
+        <option id="pm">peso mexicano</option>
+        <option id="pc">peso colombiano</option>
+        <option id="eu">euro</option>
+        <option id="li">libra esterlina</option>
+      <select>
+      <select id="mostrar" style="WIDTH: 190px; HEIGHT: 25px">
+        <option>elige tu moneda</option>
+        <option id="do">dolar</option>
+        <option id="pm">peso mexicano</option>
+        <option id="pc">peso colombiano</option>
+        <option id="eu">euro</option>
+        <option id="li">libra esterlina</option>
+      <select>
+         <button id="btnboton" type="button" onclick="capturar()">convertir</button>
+        
+        <br><br>
+        
+        <input id="resultados" class="col" type="text"placeholder="validaciones del formulario" style="WIDTH: 500px; HEIGHT: 35px">
+       </div>
+      
+    </form>
+   
+   </center>
+    
+  <script src="./script/script.js"></script>
+</body>
+</html>
